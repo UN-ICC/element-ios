@@ -102,8 +102,8 @@ final class BuildSettings: NSObject {
     // MARK: - Server configuration
     
     // Default servers proposed on the authentication screen
-    static let serverConfigDefaultHomeserverUrlString = "https://matrix.org"
-    static let serverConfigDefaultIdentityServerUrlString = "https://vector.im"
+    static let serverConfigDefaultHomeserverUrlString = "https://matrix.wto.org"
+    static let serverConfigDefaultIdentityServerUrlString = "https://matrix.wto.org"
     
     static let serverConfigSygnalAPIUrlString = "https://matrix.org/_matrix/push/v1/notify"
     
