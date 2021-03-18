@@ -16,9 +16,9 @@
 
 
 // App identity
-BUNDLE_DISPLAY_NAME = Element
-BASE_BUNDLE_IDENTIFIER = im.vector.app
-APPLICATION_GROUP_IDENTIFIER = group.im.vector
+BUNDLE_DISPLAY_NAME = WTOMatrix
+BASE_BUNDLE_IDENTIFIER = org.unicc.wtomatrix
+APPLICATION_GROUP_IDENTIFIER = group.im.wto
 APPLICATION_SCHEME = element
 
 // Version

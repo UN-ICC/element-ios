@@ -7810,7 +7810,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = HK26526R9A;
 				PRODUCT_BUNDLE_IDENTIFIER = org.unicc.wtomatrix;
 				PROVISIONING_PROFILE = "";
@@ -7888,7 +7888,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = HK26526R9A;
 				PRODUCT_BUNDLE_IDENTIFIER = org.unicc.wtomatrix;
 				PROVISIONING_PROFILE_SPECIFIER = "";
