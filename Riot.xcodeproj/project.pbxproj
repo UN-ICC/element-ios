@@ -7782,6 +7782,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = HK26526R9A;
 				PRODUCT_BUNDLE_IDENTIFIER = org.unicc.wtomatrix.nse;
 				PROVISIONING_PROFILE = "";
@@ -7810,7 +7811,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = HK26526R9A;
 				PRODUCT_BUNDLE_IDENTIFIER = org.unicc.wtomatrix;
 				PROVISIONING_PROFILE = "";
@@ -7824,6 +7825,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = HK26526R9A;
 				PRODUCT_BUNDLE_IDENTIFIER = org.unicc.wtomatrix.nse;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -7888,7 +7890,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = HK26526R9A;
 				PRODUCT_BUNDLE_IDENTIFIER = org.unicc.wtomatrix;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -7901,6 +7903,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = HK26526R9A;
 				PRODUCT_BUNDLE_IDENTIFIER = org.unicc.wtomatrix.SiriIntents;
 				PROVISIONING_PROFILE = "";
@@ -7914,6 +7917,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = HK26526R9A;
 				PRODUCT_BUNDLE_IDENTIFIER = org.unicc.wtomatrix.shareExtension;
 				PROVISIONING_PROFILE = "";
@@ -7927,6 +7931,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = HK26526R9A;
 				PRODUCT_BUNDLE_IDENTIFIER = org.unicc.wtomatrix.SiriIntents;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -7937,6 +7942,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 581809164A4191168851162E /* Debug.xcconfig */;
 			buildSettings = {
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = HK26526R9A;
 				PRODUCT_BUNDLE_IDENTIFIER = org.unicc.wtomatrix.shareExtension;
 			};
