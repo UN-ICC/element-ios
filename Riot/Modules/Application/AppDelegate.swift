@@ -114,6 +114,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // MARK: Push Notifications
     
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        let token = deviceToken.map { String(format: "%02.2hhx", $0) }.joined()
+        print("Token push: ", token)
+
         self.legacyAppDelegate.application(application, didRegisterForRemoteNotificationsWithDeviceToken: deviceToken)
     }
     
