@@ -52,6 +52,8 @@ final class PushNotificationStore: NSObject {
             }
         } set {
             do {
+                let token = newValue?.map { String(format: "%02.2hhx", $0) }.joined()
+                NSLog("VOIP Token: \(String(describing: token))")
                 try store.set(newValue, forKey: StoreKeys.pushToken)
             } catch let error {
                 NSLog("[PinCodePreferences] Error when storing push token to the store: \(error)")

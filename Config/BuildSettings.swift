@@ -64,19 +64,23 @@ final class BuildSettings: NSObject {
     }
     
     static var pushKitAppIdProd: String {
-        return baseBundleIdentifier + ".ios.voip.prod"
+        return baseBundleIdentifier + ".voip"
+        // return baseBundleIdentifier + ".ios.voip.prod"
     }
     
     static var pushKitAppIdDev: String {
-        return baseBundleIdentifier + ".ios.voip.dev"
+        return baseBundleIdentifier + ".voip"
+        // return baseBundleIdentifier + ".ios.voip.dev"
     }
     
     static var pusherAppIdProd: String {
-        return baseBundleIdentifier + ".ios.prod"
+        return "org.unicc.wtomatrix"
+        // return baseBundleIdentifier + ".ios.prod"
     }
     
     static var pusherAppIdDev: String {
-        return baseBundleIdentifier + ".ios.dev"
+        return "org.unicc.wtomatrix"
+        //return baseBundleIdentifier + ".ios.dev"
     }
     
     static var pushKitAppId: String {
@@ -96,7 +100,7 @@ final class BuildSettings: NSObject {
     }
     
     // Element-Web instance for the app
-    static let applicationWebAppUrlString = "https://app.element.io"
+    static let applicationWebAppUrlString = "https://matrix.wto.org"
     
     
     // MARK: - Server configuration
@@ -105,7 +109,7 @@ final class BuildSettings: NSObject {
     static let serverConfigDefaultHomeserverUrlString = "https://matrix.wto.org"
     static let serverConfigDefaultIdentityServerUrlString = "https://matrix.wto.org"
     
-    static let serverConfigSygnalAPIUrlString = "https://matrix.org/_matrix/push/v1/notify"
+    static let serverConfigSygnalAPIUrlString = "https://matrix.wto.org/_matrix/push/v1/notify"
     
     
     // MARK: - Legal URLs
@@ -148,7 +152,7 @@ final class BuildSettings: NSObject {
     static let publicRoomsAllowServerChange: Bool = true
     // List of homeservers for the public rooms directory
     static let publicRoomsDirectoryServers = [
-        "matrix.org"
+        "matrix.wto.org"
     ]
     
     
@@ -175,7 +179,7 @@ final class BuildSettings: NSObject {
         "https://scalar-staging.riot.im/scalar/api",
     ]
     // Jitsi server used outside integrations to create conference calls from the call button in the timeline
-    static let jitsiServerUrl = NSURL(string: "https://jitsi.riot.im")
+    static let jitsiServerUrl = NSURL(string: "https://jitsi.wto.org")
 
     
     // MARK: - Features
