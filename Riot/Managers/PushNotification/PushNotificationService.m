@@ -517,6 +517,10 @@ Matrix session observer used to detect new opened sessions.
 {
     NSLog(@"[PushNotificationService] did update PushKit credentials");
     _pushNotificationStore.pushKitToken = pushCredentials.token;
+    
+    // TODO:  Pablo R: ENABLE PUSHKIT!
+    [MXKAppSettings standardAppSettings].allowPushKitPushers = true;
+    [[MXKAccountManager sharedManager] setPushDeviceToken:pushCredentials.token withPushOptions:nil];
     if ([UIApplication sharedApplication].applicationState == UIApplicationStateActive)
     {
         self.shouldReceiveVoIPPushes = NO;

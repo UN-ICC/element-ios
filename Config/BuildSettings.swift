@@ -144,7 +144,7 @@ final class BuildSettings: NSObject {
         return false
         #endif
     }
-    static let stunServerFallbackUrlString: String? = "stun:turn.matrix.org"
+    static let stunServerFallbackUrlString: String? = "stun:turn.wto.org:5349"
     
     
     // MARK: -  Public rooms Directory
