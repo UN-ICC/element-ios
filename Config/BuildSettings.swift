@@ -74,12 +74,12 @@ final class BuildSettings: NSObject {
     }
     
     static var pusherAppIdProd: String {
-        return "org.unicc.wtomatrix"
+        return baseBundleIdentifier
         // return baseBundleIdentifier + ".ios.prod"
     }
     
     static var pusherAppIdDev: String {
-        return "org.unicc.wtomatrix"
+        return baseBundleIdentifier
         //return baseBundleIdentifier + ".ios.dev"
     }
     
