@@ -47,6 +47,8 @@ class DarkTheme: NSObject, Theme {
     // 26, 110, 19 --> Green
     // var tintColor: UIColor = UIColor(displayP3Red: 26.0/255.0, green: 110.0/255.0, blue: 19.0/255.0, alpha: 1.0)
     
+    var textTertiaryColor: UIColor = UIColor(rgb: 0x8E99A4)
+
     var tintBackgroundColor: UIColor = UIColor(rgb: 0x1F6954)
     var tabBarUnselectedItemTintColor: UIColor = UIColor(rgb: 0x8E99A4)
     var unreadRoomIndentColor: UIColor = UIColor(rgb: 0x2E3648)
@@ -56,6 +58,8 @@ class DarkTheme: NSObject, Theme {
     var noticeSecondaryColor: UIColor = UIColor(rgb: 0x61708B)
 
     var warningColor: UIColor = UIColor(rgb: 0xFF4B55)
+    
+    var roomInputTextBorder: UIColor = UIColor(rgb: 0x8D97A5).withAlphaComponent(0.2)
 
     var avatarColors: [UIColor] = [
         UIColor(rgb: 0x03B381),
